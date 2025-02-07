@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "https://1103.api.green-api.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -10,13 +11,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@tanstack/react-query": "^5.66.0",
+    "axios": "^1.7.9",
+    "formik": "^2.4.6",
+    "lodash.throttle": "^4.1.1",
+    "prettier": "^3.4.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-imask": "^7.6.1",
+    "react-query": "^3.39.3",
+    "sass": "^1.84.0",
+    "sonner": "^1.7.4",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
+    "@types/lodash.throttle": "^4.1.9",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
